@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&family=Lato:wght@400;700;900&family=Open+Sans&family=Yeseva+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header| banner */
+#header{
+    background: url('../images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+}
+a.nav-link {
+    color: #fff;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+a.nav-link:hover {
+    color: #fff;
+}
+.nav-link {
+    position: relative;
+}
+a.nav-link:hover::before {
+    content: '';
+    position: absolute;
+    top: -24px;
+    height: 1px;
+    width: 80%;
+    border: 1px solid #fff;
+}
+.nav-social a {
+    color: #dab33e;
+    margin-left: 5px;
+    font-size: 18px;
+}
+.navbar-brand img{
+    width: 110px;
+}
+div#navbarNavAltMarkup {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner-content h1{
+    color: #fff;
+    font-family: 'Yeseva One', cursive;
+    font-size: 90px;
+    margin: 100px 0 50px;
+}
+.banner-content img{
+    width: 220px;
+    margin-bottom: 50px;
+}
+.banner-btn .btn1 a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.4)
+}
+.banner-btn .btn2 a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    background: rgba(255, 255, 255, 0.4)
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+}
+.banner-btn .btn1,.btn2{
+    margin: 0 30px;
+}
+/* header | banner */
+
+
+
+/* Just-the-right-food */
+.Just-the-right-food{
+    background: url('../images/pattern-bg-first.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.common-heading h4{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+}
+.common-heading img{
+    width: 250px;
+}
+.left-signature-text p{
+    color: #4c4c4c;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+/* Just-the-right-food */
+
+
+/* fine-ingredients */
+.fine-ingredients{
+    background: url('../images/banner.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.common-heading-fine h4{
+    color: #fff;
+}
+.fine-text p{
+    color: #fff;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.fine-overlay {
+    background-color: rgba(0,0,0,.5);
+    display: table;
+    margin: 0 auto;
+    height: 400px;
+    width: 450px;
+}
+/* fine-ingredients */
+
+
+/* food menu */
+.food-menu{
+    background: url('../images/pattern-bg.jpg');
+    height: 850px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.common-heading-food-menu img{
+    width: 150px;
+}
+.common-heading-food-menu h4{
+    font-size: 28px;
+}
+.menu-pricing{
+    position: relative;
+}
+.border-pricing {
+    position: absolute;
+    top: 30px;
+    left: 1px;
+    border-top: 1px solid #dfce98;
+    width: 476px;
+}
+.border-pricing.main_ishes {
+    position: absolute;
+    top: 30px;
+    left: 6px;
+    border-top: 1px solid #dfce98;
+    width: 476px;
+}
+h5.menu-title.d-price {
+    padding: 0 136px;
+}
+.common-heading.common-heading-food-menu.mb-5.mt-5 {
+    margin: 0 144px;
+}
+h5.menu-title.special-price.d-price.menu-pricing-border-price {
+    margin-left: 28px;
+}
+.menu-pricing.menu-pricing-border {
+    border: 1px solid #cc9900;
+    margin-top: 30px;
+    width: 90%;
+    padding: 5px;
+}
+h5.menu-title.d-price.menu-pricing-border-price {
+    padding: 0 138px;
+}
+h5.menu-title {
+    font-family:'Yeseva One', cursive;
+    font-size: 21px;
+    color: #cc9900 ;
+}
+.menu-pricing-main{
+    position: relative;
+}
+span.special {
+    position: absolute;
+    top: -26px;
+    right: -1px;
+    background: #cc9900;
+    padding: 2px;
+    font-size: 14px;
+    color: #fff;
+}
+/* food menu */
+
+
+/* guest-review */
+.guest-review{
+    background: url('../images/review-bg.jpg');
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.guest-text p{
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gentium Book Basic', serif;
+}
+.guest-text h5{
+    color: #fff;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.guest-overlay {
+    background-color: rgba(0,0,0,.5);
+    display: table;
+    margin: 0 auto;
+    height: 500px;
+    width: 600px;
+}
+.guest-heading img{
+    width: 200px;
+}
+.guest-quote {
+    margin: -5px 57px;
+}
+.guest-quote img{
+    width: 30px;
+}
+/* guest-review */
+
+
+/* reservation */
+.reservation{
+    background: url('../images/pattern-bg-first.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+form label{
+    color: #cc9900;
+    font-weight: 700;
+}
+input[type="text"],[type="email"], select {
+    border: 1px solid #edf0f0;
+    padding: 8px 10px;
+    width: 200px;
+}
+input[type="date"]{
+    border: 1px solid #edf0f0;
+    padding: 8px 10px;
+    width: 200px;
+}
+::placeholder{
+    font-style: italic;
+    font-size: 18px;
+}
+select:focus{
+    outline: none;
+    border: 1px solid #cc9900;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #cc9900;
+}
+.d-block.m-space {
+    margin: 0 30px;
+}
+/* reservation */
+
+
+/* footer */
+.footer{
+    background: #191919;
+}
+.footer-content p{
+font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+
+}
+.footer-common-heading h2{
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+}
+.footer-common-heading img{
+    width: 150px;
+}
+.footer-card {
+    display: table;
+    margin: 0 auto;
+}
+.footer-card img{
+    width: 30px;
+    margin: 0 5px;
+}
+.footer-social a{
+    color: #fff;
+    padding: 0 5px;
+}
+/* footer */
